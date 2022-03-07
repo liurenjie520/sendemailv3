@@ -60,7 +60,7 @@ def send_mail(to_list, title, content, cc_list=[], encode='utf-8', is_html=True,
     nickname = '温度机器人'
     email = '1449621606@qq.com'
     password = SCKEY
-    m = Mail('smtp.qq.com', nickname, email, password, '')
+    m = Mail('smtp.qq.com', nickname, email, password, '1')
     m.send_mail(to_list, title, content, cc_list, encode, is_html, images)
 
 
