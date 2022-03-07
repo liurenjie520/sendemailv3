@@ -25,8 +25,7 @@ jobs:
     - name: 'Install dependencies'
       run: pip install -r requirements.txt
     - name: '开始运行'
-      env:
-        SCKEY: ${{ secrets.SCKEY }}
+      
           
       run: python jj.py    
     - name: commit
