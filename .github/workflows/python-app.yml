@@ -23,7 +23,8 @@ jobs:
       with:
         python-version: 3.7
     - name: 'Install dependencies'
-      run: pip install -r requirements.txt
+
+      run: pip install --upgrade pip -r requirements.txt
     - name: '开始运行'
       
           
