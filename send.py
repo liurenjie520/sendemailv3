@@ -26,7 +26,7 @@ class Mail(object):
         if is_html:
             mail_msg = ''
             for i in range(len(images)):
-                mail_msg += '<p><img src="cid:image%d" height="240" width="320"></p>' % (i+1)
+                mail_msg += '<p><img src="cid:image%d" height="240" width="520"></p>' % (i+1)
             msg.attach(MIMEText(content + mail_msg, 'html', 'utf-8'))
 
             for i, img_name in enumerate(images):
