@@ -1,0 +1,3 @@
+requests
+pyplot
+smtplib
