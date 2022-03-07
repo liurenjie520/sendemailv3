@@ -98,7 +98,7 @@ def drawTemperatureLineChart(city):
         fig.autofmt_xdate()
         plt.plot(dates, highs, c='red', alpha=0.5)
         plt.plot(dates, lows, c='blue', alpha=0.5)
-        plt.title('近期天气情况', fontsize=24)
+        plt.title('Recent weather conditions', fontsize=24)
         # plt.show()
         plt.savefig('近期天气情况.png')
 
@@ -110,7 +110,7 @@ def drawTemperatureLineChart(city):
         plt.stackplot(dates, highs, lows, colors=['teal', 'darkorange'],
                       labels=['Highest temperature', 'Lowest temperature'])
         plt.xticks(rotation=70) # 倾斜70度
-        plt.title("天气堆叠图")
+        plt.title("Weather stack")
         plt.xlabel("date", fontsize=10)
         plt.ylabel("TEMP(℃)", fontsize=10)
         plt.legend()
@@ -125,7 +125,7 @@ def drawTemperatureLineChart(city):
         plt.scatter(dates, highs, size1, color='r', alpha=0.5, marker="o")
         plt.scatter(dates, lows, color='k', s=25, marker="o")
         plt.xticks(rotation=70) # 倾斜70度
-        plt.title("天气散点图")
+        plt.title("Weather scatter")
         plt.xlabel("date")
         plt.ylabel("TEMP(℃)")
         # plt.show()
@@ -157,7 +157,7 @@ def drawTemperatureLineChart(city):
         for a, b in zip(x, lows):
             plt.text(a, b, b, ha='center', va='bottom', fontsize=10)
 
-        plt.title("天气双重柱状图")
+        plt.title("Double histogram")
         plt.xlabel("date")
         plt.ylabel("TEMP(℃)")
         plt.legend(loc='lower right')
@@ -171,7 +171,7 @@ def drawTemperatureLineChart(city):
         # 绘制横向柱状图
         plt.barh(dates, highs)
         plt.barh(dates, lows)
-        plt.title("天气横向柱状图")
+        plt.title("Horizontal bar chart")
         plt.xlabel("TEMP(℃)")
         plt.ylabel("DATE")
         # plt.show()
