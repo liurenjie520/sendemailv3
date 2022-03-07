@@ -232,3 +232,5 @@ def main(city):
 
     return zifu3
 
+if __name__ == '__main__':
+    main('shanghai')
