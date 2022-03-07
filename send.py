@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
@@ -58,19 +60,24 @@ def send_mail(to_list, title, content, cc_list=[], encode='utf-8', is_html=True,
     SCKEY = os.environ["SCKEY"]
     content = '<pre>%s</pre>' % content
     nickname = '温度机器人'
-    email = '1449621606@qq.com'
+    email = '1449621606'
     password = SCKEY
-    m = Mail('smtp.qq.com', nickname, email, password, '1')
+    m = Mail('smtp.qq.com', nickname, email, password, 'qq.com')
     m.send_mail(to_list, title, content, cc_list, encode, is_html, images)
 
 
 if __name__ == '__main__':
     images = [
-        './双折线图.png',
+        './近期天气情况.png',
         './天气双重柱状图.png',
+        './天气散点图.png',
+        './天气堆叠图.png',
+        './天气横向柱状图.png',
+        './绘制普通图像.png',
+        './双折线图.png',
 
     ]
     import time
     title = '近2周天气趋势图 %s' % time.strftime('%H:%M:%S')
     content = '近2周天气趋势图。发送时间： %s' % time.strftime('%H:%M:%S')+'<br/>'+jj.main('shanghai')
-    send_mail(['1449621606@qq.com'], title, content, ['1449621606@qq.com', '1181259728@qq.com'],  'utf-8', True, images)
+    send_mail(['1449621606@qq.com'], title, content, ['1181259728@qq.com'],  'utf-8', True, images)
