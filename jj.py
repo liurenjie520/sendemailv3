@@ -3,7 +3,7 @@
 # 功能：查询城市天气
 import requests, json, re
 from matplotlib import pyplot as plt
-
+import os
 
 
 # 获取城市代码
