@@ -1,4 +1,4 @@
-name: 计划任务
+name: 计划任务send
 
 on:
   push:
