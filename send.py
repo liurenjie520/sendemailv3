@@ -66,8 +66,8 @@ def send_mail(to_list, title, content, cc_list=[], encode='utf-8', is_html=True,
 
 if __name__ == '__main__':
     images = [
-        '双折线图.png',
-        '天气双重柱状图.png',
+        './双折线图.png',
+        './天气双重柱状图.png',
 
     ]
     import time
