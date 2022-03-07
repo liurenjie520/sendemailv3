@@ -4,6 +4,7 @@ from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
 from email.header import Header
 import jj
+import os
 
 class Mail(object):
     def __init__(self, host, nickname, username, password, postfix):
@@ -54,10 +55,11 @@ class Mail(object):
             return False
 
 def send_mail(to_list, title, content, cc_list=[], encode='utf-8', is_html=True, images=[]):
+    SCKEY = os.environ["SCKEY"]
     content = '<pre>%s</pre>' % content
     nickname = '温度机器人'
     email = '1449621606@qq.com'
-    password = ''
+    password = SCKEY
     m = Mail('smtp.qq.com', nickname, email, password, '')
     m.send_mail(to_list, title, content, cc_list, encode, is_html, images)
 
