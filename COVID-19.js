@@ -13,7 +13,7 @@ if (inputValue) {
             "Content-Type": "application/json",
             "Authentication": "35361c848ad548b2954c60e711b7aff9",
             "Token": "13a589cd26c6980b7a3b76555f4d9140368603f31b34b202cbfbf8b9415fffc1beae85a13b800808785042a62ceceb340634a671c5209c3fb96176f62681e004df598d5bfd7a676c3939aca7287f8c72691fa45f6fff5a7dff285f0f88fc77f7bd8b8209832ff82a24e30dff41c4ebd3e86ebd110c0cd0fec5a327d24523a2bb",
-            "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.23(0x18001725) NetType/4G Language/zh_CN",
+            "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.22(0x18001628) NetType/WIFI Language/zh_CN",
             "Referer": "https://servicewechat.com/wxc5059c3803665d9c/456/page-frame.html",
             "Accept-Encoding": "gzip",
         },
