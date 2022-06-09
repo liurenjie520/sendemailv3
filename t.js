@@ -23,16 +23,16 @@ if(inputValue) {
 		url: "https://smartgate.ywtbsupappw.sh.gov.cn/ebus/swift/mw/v1",
 		header: {
 			//这里需要替换自己的
-			'Host': 'smartgate.ywtbsupappw.sh.gov.cn'
-			'Connection': 'keep - alive'
-			'Content - Length': '337'
-			'x - tif - did': 'nHSmNxA0d4'
-			'x - tif - sid': '330 ae4d073b13f3dcd60'
-			'content - type': 'application / json'
-			'Authentication': '35361 c848ad548b2954c60e711b7aff9'
-			'token': '13 a589cd26c6980b7a3b76555f4d9140368603f31b34b202cbfbf8b9415fffc1beae85a13b800808785042a62ceceb340634a671c5209c3fb96176f62681e004df598d5bfd7a676c3939aca7287f8c72691fa45f6fff5a7dff285f0f88fc77f7bd8b8209832ff82a24e30dff41c4ebd3e86ebd110c0cd0fec5a327d24523a2bb'
-			'Accept - Encoding': 'gzip, deflate, br'
-			'User - Agent': 'Mozilla / 5.0(iPhone; CPU iPhone OS 16 _0 like Mac OS X) AppleWebKit / 605.1 .15(KHTML, like Gecko) Mobile / 15E148 MicroMessenger / 8.0 .22(0x18001621) NetType / WIFI Language / zh_CN'
+			'Host': 'smartgate.ywtbsupappw.sh.gov.cn',
+			'Connection': 'keep - alive',
+			'Content - Length': '337',
+			'x - tif - did': 'nHSmNxA0d4',
+			'x - tif - sid': '330 ae4d073b13f3dcd60',
+			'content - type': 'application / json',
+			'Authentication': '35361 c848ad548b2954c60e711b7aff9',
+			'token': '13 a589cd26c6980b7a3b76555f4d9140368603f31b34b202cbfbf8b9415fffc1beae85a13b800808785042a62ceceb340634a671c5209c3fb96176f62681e004df598d5bfd7a676c3939aca7287f8c72691fa45f6fff5a7dff285f0f88fc77f7bd8b8209832ff82a24e30dff41c4ebd3e86ebd110c0cd0fec5a327d24523a2bb',
+			'Accept - Encoding': 'gzip, deflate, br',
+			'User - Agent': 'Mozilla / 5.0(iPhone; CPU iPhone OS 16 _0 like Mac OS X) AppleWebKit / 605.1 .15(KHTML, like Gecko) Mobile / 15E148 MicroMessenger / 8.0 .22(0x18001621) NetType / WIFI Language / zh_CN',
 			'Referer': 'https: //servicewechat.com/wxc5059c3803665d9c/456/page-frame.html'
 		},
 		body: {
@@ -60,20 +60,17 @@ if(inputValue) {
 		url: "https://suishenmaback2.sh.gov.cn/smzy/shspace/hs/getByMwV3",
 		header: {
 			//这里需要替换自己的
-			'Host': 'suishenmaback2.sh.gov.cn'
-'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundarymr9WYoAKxVtQ2F7C'
-'Origin': 'https://suishenmaback2.sh.gov.cn'
-'Accept-Encoding': 'gzip, deflate, br'
-'Connection': 'keep-alive'
-'Accept': 'application/json, text/plain, */*'
-'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.22(0x18001628) NetType/WIFI Language/zh_CN miniProgram/wxc5059c3803665d9c'
-'Referer': 'https://suishenmaback2.sh.gov.cn/smzy/h5/preventionV2?from=wx&mw=MSpMNMFzg3OiT96RONyNI7Lcti8tl7nb6saysLjzEzRlBtrxdx0rhXc%2Flrij5vaSnfmxBU31T3XsK54c6BNflqfeTlzzTTSSpxxhqGXYBtlYdywylyr%2FIMWlDiARmuXJnhpWrCNWRkr3rlycob5EdQ%3D%3D&latitude=31.223839684896895&longitude=121.5260533190952&_t=1654758335042'
-'Content-Length': '293'
-'Accept-Language': 'zh-CN,zh-Hans;q=0.9'
+			'Host': 'suishenmaback2.sh.gov.cn',
+			'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundarymr9WYoAKxVtQ2F7C',
+			'Origin': 'https://suishenmaback2.sh.gov.cn',
+			'Accept-Encoding': 'gzip, deflate, br',
+			'Connection': 'keep-alive',
+			'Accept': 'application/json, text/plain, */*',
+			'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.22(0x18001628) NetType/WIFI Language/zh_CN miniProgram/wxc5059c3803665d9c',
+			'Referer': 'https://suishenmaback2.sh.gov.cn/smzy/h5/preventionV2?from=wx&mw=MSpMNMFzg3OiT96RONyNI7Lcti8tl7nb6saysLjzEzRlBtrxdx0rhXc%2Flrij5vaSnfmxBU31T3XsK54c6BNflqfeTlzzTTSSpxxhqGXYBtlYdywylyr%2FIMWlDiARmuXJnhpWrCNWRkr3rlycob5EdQ%3D%3D&latitude=31.223839684896895&longitude=121.5260533190952&_t=1654758335042',
+			'Content-Length': '293',
+			'Accept-Language': 'zh-CN,zh-Hans;q=0.9'
 
-			
-			
-			
 		},
 		form: {
 			"mw": mw
@@ -88,19 +85,18 @@ if(inputValue) {
 		url: "https://suishenmaback2.sh.gov.cn/smzy/shspace/hs/getHistory",
 		header: {
 			//这里需要替换自己的
-			'Host': 'suishenmaback2.sh.gov.cn'
-'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryKDs7ygMa7Aa0u9hG'
-'Origin': 'https://suishenmaback2.sh.gov.cn'
-'Accept-Encoding': 'gzip, deflate, br'
-'Cookie': 'WT-group10-3=ac1e7d2e300c0c790050; WT-group10=CFDQKwjgEqwU9Rocb7A/GA$$'
-'Connection': 'keep-alive'
-'Accept': 'application/json, text/plain, */*'
-'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.22(0x18001628) NetType/WIFI Language/zh_CN miniProgram/wxc5059c3803665d9c'
-'Referer': 'https://suishenmaback2.sh.gov.cn/smzy/h5/preventionV2?from=wx&mw=MSpMNMFzg3OiT96RONyNI7Lcti8tl7nb6saysLjzEzRlBtrxdx0rhXc%2Flrij5vaSnfmxBU31T3XsK54c6BNflssZZQBeot8r6NOXtpK0RjyWTX8XywVxyuEocUSx23b8%20u%209Hb1%20MQe7Pa5DSjtoog%3D%3D&latitude=31.223839684896895&longitude=121.5260533190952&_t=1654759128810'
-'Content-Length': '425'
-'Accept-Language': 'zh-CN,zh-Hans;q=0.9'
+			'Host': 'suishenmaback2.sh.gov.cn',
+			'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryKDs7ygMa7Aa0u9hG',
+			'Origin': 'https://suishenmaback2.sh.gov.cn',
+			'Accept-Encoding': 'gzip, deflate, br',
+			'Cookie': 'WT-group10-3=ac1e7d2e300c0c790050; WT-group10=CFDQKwjgEqwU9Rocb7A/GA$$',
+			'Connection': 'keep-alive',
+			'Accept': 'application/json, text/plain, */*',
+			'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.22(0x18001628) NetType/WIFI Language/zh_CN miniProgram/wxc5059c3803665d9c',
+			'Referer': 'https://suishenmaback2.sh.gov.cn/smzy/h5/preventionV2?from=wx&mw=MSpMNMFzg3OiT96RONyNI7Lcti8tl7nb6saysLjzEzRlBtrxdx0rhXc%2Flrij5vaSnfmxBU31T3XsK54c6BNflssZZQBeot8r6NOXtpK0RjyWTX8XywVxyuEocUSx23b8%20u%209Hb1%20MQe7Pa5DSjtoog%3D%3D&latitude=31.223839684896895&longitude=121.5260533190952&_t=1654759128810',
+			'Content-Length': '425',
+			'Accept-Language': 'zh-CN,zh-Hans;q=0.9'
 
-			
 		},
 		form: {
 			"sessionId": data_hs_sessionId
