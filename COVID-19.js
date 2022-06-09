@@ -18,7 +18,7 @@ if (inputValue) {
             "Accept-Encoding": "gzip",
         },
         //后面有个sessionId，需要加一下？
-        body: {"params":{},"userSystemData":{"brand":"iPhone","model":"iPhone 12 Pro Max<iPhone13,2>","version":"8.0.23","system":"iOS 15.5","platform":"ios","SDKVersion":"2.24.5","windowWidth":428},"sessionId":"35361c848ad548b2954c60e711b7aff9"}
+        body: {"params":{},"userSystemData":{"brand":"iPhone","model":"iPhone 12 Pro Max<iPhone13,4>","version":"8.0.22","system":"iOS 16.0","platform":"ios","SDKVersion":"2.24.5","windowWidth":428},"sessionId":"35361c848ad548b2954c60e711b7aff9"}
       });
 
     let data = resp.data.data
