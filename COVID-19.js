@@ -9,16 +9,16 @@ if (inputValue) {
         header: {
             "Connection": "keep-alive",
             "X-Tif-Did": "nHSmNxA0d4",
-            "X-Tif-Sid": "330ae4d073b13f3dcd60",
+            "X-Tif-Sid": "330ae4d076b13f3dcd60",
             "Content-Type": "application/json",
-            "Authentication": "35361c848ad548b2954c60e711b7aff9",
-            "Token": "13a589cd26c6980b7a3b76555f4d9140368603f31b34b202cbfbf8b9415fffc1beae85a13b800808785042a62ceceb340634a671c5209c3fb96176f62681e004df598d5bfd7a676c3939aca7287f8c72691fa45f6fff5a7dff285f0f88fc77f7bd8b8209832ff82a24e30dff41c4ebd3e86ebd110c0cd0fec5a327d24523a2bb",
+            "Authentication": "35361c848ad548b2954c60e711b7a5f7",
+            "Token": "13a589cd26c6980b7a3b76555f4d9140368603f31b34b202cbfbf8b9415521c1beae85a13b800808785042a62ceceb340634a671c5209c3fb96176f62681e004df598d5bfd7a676c3939aca7287f8c72691fa45f6fff5a7dff285f0f88fc77f7bd8b8209832ff82a24e30dff41c4ebd3e86ebd110c0cd0fec5a327d24523a2bb",
             "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.22(0x18001628) NetType/WIFI Language/zh_CN",
             "Referer": "https://servicewechat.com/wxc5059c3803665d9c/456/page-frame.html",
             "Accept-Encoding": "gzip",
         },
         //后面有个sessionId，需要加一下？
-        body: {"params":{},"userSystemData":{"brand":"iPhone","model":"iPhone 12 Pro Max<iPhone13,4>","version":"8.0.22","system":"iOS 16.0","platform":"ios","SDKVersion":"2.24.5","windowWidth":428},"sessionId":"35361c848ad548b2954c60e711b7aff9"}
+        body: {"params":{},"userSystemData":{"brand":"iPhone","model":"iPhone 12 Pro Max<iPhone13,4>","version":"8.0.22","system":"iOS 16.0","platform":"ios","SDKVersion":"2.24.5","windowWidth":428},"sessionId":"35361c848ad548b2954c60e785b7aff9"}
       });
 
     let data = resp.data.data
