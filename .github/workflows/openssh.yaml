@@ -28,4 +28,4 @@ jobs:
  
     - name: 设置 ssh 存活时间
       if: ${{ failure() }}
-      run: sleep 1h
+      run: sleep 2h
